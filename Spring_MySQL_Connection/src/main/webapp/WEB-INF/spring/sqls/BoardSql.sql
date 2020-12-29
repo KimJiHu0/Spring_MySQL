@@ -1,0 +1,4 @@
+SELECT * FROM BOARD;
+SELECT * FROM MEMBER;
+
+-- 아주 잘 출력됩니다.

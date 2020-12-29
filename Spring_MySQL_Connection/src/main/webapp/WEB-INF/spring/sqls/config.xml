@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd" >
+<configuration>
+
+	<!-- type이라는 속성 안에있는 경로의 BoardDto의 이름을 BoardDto로 지정합니다. 별명 지어준다고 생각하시면 편하실 것 같습니다. -->
+	<typeAliases>
+		<typeAlias type="com.spring.mysql.dto.BoardDto" alias="BoardDto"/>
+	</typeAliases>
+	
+	<!-- mapper를 연결해줍니다. 저는 아직 mapper를 만들진 않았지만 아래와 같이 만들거라 이미 해줬습니다. -->
+	<mappers>
+		<mapper resource="/mybatis/board-mapper.xml"/>
+	</mappers>
+
+</configuration>
